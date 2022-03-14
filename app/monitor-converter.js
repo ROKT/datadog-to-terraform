@@ -9,7 +9,9 @@ const MONITOR = {
   id: (_) => "",
   tags: (v) => assignmentString("tags", v),
   priority: (v) => assignmentString("priority", v),
-  multi: (v) => assignmentString("type", v),
+
+  // Have to drop multi as not supported?
+  multi: (v) => (_) => "",
 
   // Internal fields
   created: (_) => "",
