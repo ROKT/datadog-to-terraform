@@ -11,7 +11,7 @@ const MONITOR = {
   priority: (v) => assignmentString("priority", v),
 
   // Have to drop multi as not supported?
-  multi: (v) => (_) => "",
+  multi: (_) => "",
 
   // Internal fields
   created: (_) => "",
